@@ -1,29 +1,53 @@
-# There are three parts to this challenge and remember to push your solution.
-
 # PART 1:
-# - Create a well named variable that contains the amount of time it took you to get to class
-# - Create a complete sentence  that lets us know how you got to class and how long it took
-# - Print this complete sentence
 
+system("clear") # Clears the terminal 
+journey_time = "I got to class using the bus which took approximately 1 hour."
+puts journey_time # Prints out the string 
 
 # PART 2:
-# You are working at a bar where you have a current backlog of drinks to make:
-# 3 cocktails
-# 2 waters
-# and
-# 6 beers
 
-# Write a program that asks the customer for their order.
-#   if they order a cocktail, add one to the number of cocktails you need to make,
-#   if they order a water, add one to the number of waters you need to make,
-#   if they order a beer, add one to the number of beers you need to pour
+drinks = {:cocktails => 3, :water => 2, :beers => 6} # Assigning the key and values
+running = "yes"
+puts "" # Adding an extra space for aethetics ;)
 
-# Print the final drinks order so you know what to make
+while running == "yes" # Initialising while loop 
+        
 
+            puts "Would you like to place an order (yes or no)?"
+       
+    question = gets.chomp 
 
-# Part Three:
-# Cocktails sell for $22, and cost $8 to make
-# Beer sell for $12, and cost $3 to pour
-# Water sell for $6, and cost $0.15 to make
+    if question == "no"
+        running = "no" # Loop stops running when "no" is inputted
+    else
+         system("clear") # Clears the terminal to place order 
+            puts "What would you like to order today?"
+            puts "Options: cocktails, water, beers." # Prints out options
 
-# Print out the total profit for the orders you have
+        new_order = gets.chomp
+
+                case
+
+                    when new_order == "cocktails"
+                            drinks[:cocktails] += 1
+
+                    when new_order == "water"
+                            drinks[:water] += 1
+
+                    when new_order == "beers"
+                            drinks[:beers] += 1 # Increments specified drink by one each time its chosen.
+
+                end 
+            
+            puts "Drinks To Prepare: " # Gives the list of drinks to prepare using string interpolation
+            puts "Cocktails: #{drinks[:cocktails]} Water: #{drinks[:water]} Beers: #{drinks[:beers]}"
+    end        
+            
+end
+
+# PART 3
+    
+system("clear") 
+        puts "Total Profit: " # Gives the total profit of each drink purchased.
+        puts "Cocktail: $#{drinks[:cocktails] * (22-8)} " + "  Water: $#{drinks[:water] * (6-0.15).round} " + "  Beers: $#{drinks[:beers] * (12-3)}"
+        puts ""
