@@ -1,44 +1,28 @@
-# Definition
-# 
-# Extend the definition class to have three different methods:
-# 1. add_word(word, definition), should store a word and definition
-# 2. lookup(word), should return a definition
-# 3. total_words, should return the total number of words
-# 
-# Example:
-# definition = Definition.new
-# definition.add_word('ruby', 'A red, precious stone')
-# definition.total_words -> should return 1
-# definition.lookup('ruby') -> should return 'A red, precious stone'
-#
-# Check your solution by running the tests:
-# ruby tests/06_definition_test.rb
-
 class Definition
 attr_accessor :word, :definition, :wordarray, :definitionarray
-    def initialize 
+    def initialize # Initialising the values of the array and parameters
             @definition = definition
             @word = word
             @wordarray = []
             @definitionarray = []
                 end
 
-    def meaning (word, definition)
-        puts "'#{word}', '#{definition}'"
+    def meaning (word, definition) 
+        puts "'#{word}', '#{definition}'" # Outputs the word and definition 
     end
 
     def add_word (word, definition)
-            @wordarray << word
-            @definitionarray << definition
+            @wordarray << word # Pushes the word value onto the word array
+            @definitionarray << definition # Pushes the definition value onto the definition array 
     end
 
     def total_words 
-            return @wordarray.length
+            return @wordarray.length # Determines the length of the word array 
     end
 
     def lookup(word)
-        wordindex = @wordarray.index(word)
-        return @definitionarray[wordindex]
+        wordindex = @wordarray.index(word) # Searches for a specific word using the index method
+        return @definitionarray[wordindex] # Returns the definition of the word it has matched
     end
 end
 
@@ -49,9 +33,7 @@ definition = Definition.new
 
 puts definition.meaning("Spider-Bear", "The worst species of Bear ever!")
 definition.add_word("Spider-Bear", "The worst species of Bear ever!")
-definition.total_words
+puts definition.total_words
 puts definition.lookup("Spider-Bear")
 
 
-# ask about initialize 
-# check on each method to iterate through the array 
