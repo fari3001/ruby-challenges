@@ -12,10 +12,10 @@
 
 
 def vowels (string)
-  # Your code here
 
-string.scan(/[aeiou]/)
-
+arr = []
+arr = string.scan(/[aeiouAEIOU]/)
+return arr
 end
 
-puts vowels("hello")
+puts vowels("Hello WorlOd")
