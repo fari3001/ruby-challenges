@@ -14,10 +14,8 @@
 def vowels (string)
   # Your code here
 
-
-arr << string.scan(/[aeiou]/)
+string.scan(/[aeiou]/)
 
 end
 
 puts vowels("hello")
-puts arr
