@@ -22,14 +22,21 @@
 * 04_sum_numbers
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * 05_in_array
 =======
 * 05_in_array
 * 06_definition
 >>>>>>> 0c5142cf57ae7e09850c719182717c4efdd33e24
 =======
+=======
+>>>>>>> edb6dc4f8813f7619f327824eb92afe925d068d0
 * 05_in_array
 * 06_definition
 * 07_included_once
 * 08_count_letters
+<<<<<<< HEAD
 >>>>>>> 7db251037940e1eef793cf520e49867005ffaee3
+=======
+* 09_vowels
+>>>>>>> edb6dc4f8813f7619f327824eb92afe925d068d0
