@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * 05_in_array
 =======
 * 05_in_array
@@ -34,10 +35,13 @@
 >>>>>>> edb6dc4f8813f7619f327824eb92afe925d068d0
 =======
 >>>>>>> 22214b8847ff6c0bac28dc9a21fa0df33d860f1c
+=======
+>>>>>>> b366d1cd278c93875c0d8baa5a56af178b5d25b1
 * 05_in_array
 * 06_definition
 * 07_included_once
 * 08_count_letters
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7db251037940e1eef793cf520e49867005ffaee3
@@ -48,3 +52,8 @@
 * 09_vowels
 * 10_unique
 >>>>>>> 22214b8847ff6c0bac28dc9a21fa0df33d860f1c
+=======
+* 09_vowels
+* 10_unique
+* 11_fizzbuzz
+>>>>>>> b366d1cd278c93875c0d8baa5a56af178b5d25b1
