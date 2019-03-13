@@ -21,4 +21,4 @@ def unique(mylist)
 unique = []
 return mylist.uniq
 end
-puts unique(["tom","tom","tom"])
+puts unique(["Fari","is","better", "than", "Dana", "Dana","Dana","Dana","Dana","Dana"])

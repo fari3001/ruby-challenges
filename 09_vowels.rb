@@ -18,4 +18,4 @@ arr = string.scan(/[aeiouAEIOU]/)
 return arr
 end
 
-puts vowels()
+puts vowels("poooOOOOn")
