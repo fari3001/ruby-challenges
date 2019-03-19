@@ -30,6 +30,7 @@
 * 12_count_words
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 * 13_fibonacci
@@ -38,3 +39,8 @@
 * 13_fibonacci
 * 14_hackerman
 >>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
+=======
+* 13_fibonacci
+* 14_hackerman
+* 15_change_letters
+>>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
