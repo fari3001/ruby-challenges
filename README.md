@@ -10,9 +10,11 @@
     3. Pull down the challenge: <br/>
      `git pull --no-edit upstream <challenge_branch>`
     4. Complete the challenge
-    5. Checkout master branch and merge challenge branch:<br/>
+    5. Add and commit your changes
+    `git add . && git commit -m "<insert commit message>"`
+    6. Checkout master branch and merge challenge branch:<br/>
     `git checkout master && git merge <challenge_branch>`
-    1. Push to master in your fork:<br/>
+    7. Push to master in your fork:<br/>
      `git push origin master`
 
 ## List of challenge branches
@@ -28,6 +30,7 @@
 * 10_unique
 * 11_fizzbuzz
 * 12_count_words
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49,12 +52,19 @@
 =======
 =======
 >>>>>>> bbfdad0511b40c0003dfc3256a1892fbc4555b44
+=======
+>>>>>>> c158126e12d2f3261141962b0a82634e02468731
 * 13_fibonacci
 * 14_hackerman
 * 15_change_letters
 * 16_palindrome
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5f4dd7950c4401600a6c84e20a801885d610259b
 =======
 * 17_combine_hashes
 >>>>>>> bbfdad0511b40c0003dfc3256a1892fbc4555b44
+=======
+* 17_combine_hashes
+* 18_find_errors
+>>>>>>> c158126e12d2f3261141962b0a82634e02468731
