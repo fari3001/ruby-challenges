@@ -36,6 +36,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 * 13_fibonacci
@@ -54,10 +55,13 @@
 >>>>>>> bbfdad0511b40c0003dfc3256a1892fbc4555b44
 =======
 >>>>>>> c158126e12d2f3261141962b0a82634e02468731
+=======
+>>>>>>> 34341dc172d935d150f8aa9b4afd5af66d9ec66b
 * 13_fibonacci
 * 14_hackerman
 * 15_change_letters
 * 16_palindrome
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5f4dd7950c4401600a6c84e20a801885d610259b
@@ -68,3 +72,8 @@
 * 17_combine_hashes
 * 18_find_errors
 >>>>>>> c158126e12d2f3261141962b0a82634e02468731
+=======
+* 17_combine_hashes
+* 18_find_errors
+* 19_balanced_number
+>>>>>>> 34341dc172d935d150f8aa9b4afd5af66d9ec66b
