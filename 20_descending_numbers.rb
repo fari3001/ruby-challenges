@@ -16,14 +16,14 @@
 #Input: 1254859723 Output: 9875543221
 
 def descending_order(n)
-    # Your code goes here
-    # if n > 0 
    arr = n.split('')
+
+   if arr.include?("-")
+    puts "Cannot compute"
+else
   arr = arr.sort { |a, b| b <=> a }
 print arr
-    # else
-    #     puts "Cannot compute"
-# end
+   end
 end
 
 # Test your code here
