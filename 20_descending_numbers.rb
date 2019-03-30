@@ -16,17 +16,19 @@
 #Input: 1254859723 Output: 9875543221
 
 def descending_order(n)
-   arr = n.split('')
+   arr = n.to_s.split('')
 
    if arr.include?("-")
     puts "Cannot compute"
 else
   arr = arr.sort { |a, b| b <=> a }
-print arr
+  print arr.join("").to_i
+
+
    end
 end
 
 # Test your code here
-descending_order("654897")
+descending_order(654897)
 
 # Add some interesting test cases that test edge cases

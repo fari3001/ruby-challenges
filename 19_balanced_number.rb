@@ -46,28 +46,42 @@
 # Since, the sum of all digits to the left of the middle digits (10) 
 # and the sum of all digits to the right of the middle digits (20) are equal, then it's not balanced.
 # Note : The middle digit(s) are 02.
-
-def balanced_num(number)
-
+def split_num(number)
     num = number.split('')
     numdec = num.length
- 
+
 
 
     if numdec % 2 == 0 # Even Number (2 middles)
         middle_num = num[num.length/2-1] + num[num.length/2] # identifies middle numbers
         num = num.each_slice( (num.size/2.0).round ).to_a # splits array into 2 sub arrays
-            print num
 
-        else numdec % 2 == 1 # Odd Number (1 middle)   
-            middle_num = num[num.length/2]
-            print middle_num
-            # num = num.each_slice( (num.size/2.0).round ).to_a # splits array into 2 sub arrays
-            # print num
+    else numdec % 2 == 1 # Odd Number (1 middle)   
+        middle_num = num[num.length/2]
+        num = num.each_slice( (num.size/2.0).round ).to_a
+      
+         # splits array into 2 sub arrays
+        # print num
 
     end
+    return num
+end
+
+def balanced_num(number)
+
+    split_arr = split_num(number)
+    left = split_arr[0]
+    right = split_arr[1]
+    left.pop
+    right.shift
+    sum_left = left.reduce {|a, b| a.to_i + b.to_i}
+    sum_right = right.reduce {|a, b| a.to_i + b.to_i}
+    # return sum_left == sum_right
+    sum_left == sum_right ? "Balanced" : "Not Balanced"
+
+  
 
 end
 
 
-puts balanced_num("46255046")
+puts balanced_num("4625046")
