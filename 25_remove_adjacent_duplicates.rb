@@ -14,30 +14,24 @@
 # *E.g.* remove_adjacent_duplicates("abcABCabcABC") should return exactly the same string: "abcABCabcABC"
 
 def remove_adjacent_duplicates(input)
-            # AAaBBb = AaBb
-            # insert counter 
-            # set each letter into array 
     arr = input.split('')
     i = 0
-            # Set into loop 
-
-            # DEBUG
-            # compare current letter with next 
+      
     while i < arr.length do 
 
         if arr[i] == arr[i+1]
             arr.delete_at(i+1)
-            p arr
+            # p arr
         else 
             i += 1
-            p arr
-            # arr arr[x]
-            # case sensitive 
-            # break at end of array 
-            # print out array without the letters
+            # p arr
+       
         end 
     end 
+    return arr.join
+    # puts input.squeeze
 end
 
-remove_adjacent_duplicates("AAAaAaBBbBYeeT")
 
+p remove_adjacent_duplicates("AAaAbbCCCcDDcDA")
+p remove_adjacent_duplicates("abcABCabcABC")
