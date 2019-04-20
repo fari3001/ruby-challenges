@@ -49,6 +49,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 * 13_fibonacci
@@ -93,10 +94,13 @@
 >>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
 =======
 >>>>>>> f2b33863ae6fe937126f3c6091cac15beffa7874
+=======
+>>>>>>> 52a613341a8bd665c5647d3eb4b64b7d5282c37c
 * 13_fibonacci
 * 14_hackerman
 * 15_change_letters
 * 16_palindrome
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,10 +152,13 @@
 >>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
 =======
 >>>>>>> f2b33863ae6fe937126f3c6091cac15beffa7874
+=======
+>>>>>>> 52a613341a8bd665c5647d3eb4b64b7d5282c37c
 * 17_combine_hashes
 * 18_find_errors
 * 19_balanced_number
 * 20_descending_numbers
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,10 +194,13 @@
 >>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
 =======
 >>>>>>> f2b33863ae6fe937126f3c6091cac15beffa7874
+=======
+>>>>>>> 52a613341a8bd665c5647d3eb4b64b7d5282c37c
 * 21_sort_numbers
 * 22_exes_ohs
 * 23_first_non_repeating
 * 24_isogram
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -221,10 +231,13 @@
 >>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
 =======
 >>>>>>> f2b33863ae6fe937126f3c6091cac15beffa7874
+=======
+>>>>>>> 52a613341a8bd665c5647d3eb4b64b7d5282c37c
 * 25_remove_adjacent_duplicates
 * 26_max_min
 * 27_in_array_strict
 * 28_good_walk
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,3 +254,9 @@
 * 30_spin_words
 * 31_missing_letter
 >>>>>>> f2b33863ae6fe937126f3c6091cac15beffa7874
+=======
+* 29_shortest_walk
+* 30_spin_words
+* 31_missing_letter
+* 32_interesting_number
+>>>>>>> 52a613341a8bd665c5647d3eb4b64b7d5282c37c
